@@ -8,8 +8,8 @@
           <div class="col-lg-6 info">
             <h1 class="text-invisible">WELCOME</h1>
             <h2>
-              Hey <img src="../assets/img/shape/4.png" alt="Icon" /> I'm
-              <span>Quim</span>
+              Hey <img src="../assets/img/shape/4.png" alt="Icon" /> We're
+              <span>Quim and Adrià</span>
             </h2>
             <h3 class="title">
               <span class="header-caption" id="page-top">
@@ -17,9 +17,11 @@
                 <span class="cd-headline clip is-full-width">
                   <!-- ROTATING TEXT -->
                   <span class="cd-words-wrapper">
-                    <b class="is-visible">Fullstack Developer</b>
+                    <b class="is-visible"
+                      >Fullstack Developer and 3D designer</b
+                    >
                     <b class="is-hidden">Professional Coder</b>
-                    <b class="is-hidden">UI/UX Designer</b>
+                    <b class="is-hidden">Backend and Design Lovers</b>
                   </span>
                 </span>
                 <!-- type headline end -->

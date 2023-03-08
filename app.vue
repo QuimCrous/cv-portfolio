@@ -4,12 +4,18 @@ import Pages from './pages/index.vue';
   <Navigation />
   <div>
     <Index />
+    <Services />
+    <Portfolio />
+    <div><About /></div>
   </div>
 </template>
 
 <script setup>
 import Index from "./pages/index.vue";
 import Navigation from "./pages/header.vue";
+import Services from "./pages/services.vue";
+import Portfolio from "./pages/portfolio.vue";
+import About from "./pages/about.vue";
 useHead({
   script: [
     {
