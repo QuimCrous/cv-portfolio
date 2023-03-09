@@ -7,6 +7,7 @@ import Pages from './pages/index.vue';
     <Services />
     <Portfolio />
     <div><About /></div>
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import Navigation from "./pages/header.vue";
 import Services from "./pages/services.vue";
 import Portfolio from "./pages/portfolio.vue";
 import About from "./pages/about.vue";
+import Footer from "./pages/footer.vue";
 useHead({
   script: [
     {
