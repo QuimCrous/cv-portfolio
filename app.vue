@@ -1,23 +1,14 @@
-import Pages from './pages/index.vue';
-
 <template>
   <Navigation />
-  <div>
-    <Index />
-    <Services />
-    <Portfolio />
-    <div><About /></div>
-    <Footer />
-  </div>
+  <NuxtPage />
+  <Footer />
 </template>
 
 <script setup>
 import Index from "./pages/index.vue";
-import Navigation from "./pages/header.vue";
-import Services from "./pages/services.vue";
-import Portfolio from "./pages/portfolio.vue";
-import About from "./pages/about.vue";
-import Footer from "./pages/footer.vue";
+import Navigation from "./components/header.vue";
+import Footer from "./components/footer.vue";
+
 useHead({
   script: [
     {

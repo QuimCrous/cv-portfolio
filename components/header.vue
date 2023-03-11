@@ -85,10 +85,14 @@
         <div class="menu">
           <ul class="nav">
             <li>
-              <a class="smooth-menu" href="#home">
+              <!-- <a class="smooth-menu" href="#home">
                 <i class="fas fa-home"></i>
                 <div class="menu-name">Home</div>
-              </a>
+              </a> -->
+              <NuxtLink to="/">
+                <i class="fas fa-home"></i>
+                <div class="menu-name">Home</div>
+              </NuxtLink>
             </li>
             <li>
               <a class="smooth-menu" href="#services">
@@ -109,10 +113,14 @@
               </a>
             </li>
             <li>
-              <a class="smooth-menu" href="#resume">
+              <!-- <a class="smooth-menu" href="#resume">
                 <i class="fas fa-file-alt"></i>
                 <div class="menu-name">Resume</div>
-              </a>
+              </a> -->
+              <NuxtLink to="/blog">
+                <i class="fas fa-file-alt"></i>
+                <div class="menu-name">Resume</div>
+              </NuxtLink>
             </li>
             <li>
               <a class="smooth-menu" href="#contact">

@@ -1,73 +1,56 @@
 <template>
-  <!-- Start Banner 
-    ============================================= -->
-  <div class="auto-height bg-fixed banner-style-one">
-    <div class="container">
-      <div class="double-items">
-        <div class="row align-center">
-          <div class="col-lg-6 info">
-            <h1 class="text-invisible">WELCOME</h1>
-            <h2>
-              Hey <img src="../assets/img/shape/4.png" alt="Icon" /> We're
-              <span>Quim and Adrià</span>
-            </h2>
-            <h3 class="title">
-              <span class="header-caption" id="page-top">
-                <!-- type headline start-->
-                <span class="cd-headline clip is-full-width">
-                  <!-- ROTATING TEXT -->
-                  <span class="cd-words-wrapper">
-                    <b class="is-visible"
-                      >Fullstack Developer and 3D designer</b
-                    >
-                    <b class="is-hidden">Professional Coder</b>
-                    <b class="is-hidden">Backend and Design Lovers</b>
-                  </span>
-                </span>
-                <!-- type headline end -->
-              </span>
-            </h3>
-            <div class="button mt-55">
-              <a class="btn btn-md circle btn-dark" href="#resume">My Resume</a>
-            </div>
-          </div>
-
-          <div class="col-lg-6 thumb" data-wow-delay="900ms">
-            <img
-              class="wow fadeInDown"
-              src="../assets/img/illustration/1.png"
-              alt="Thumb"
-            />
-            <div class="shape-center">
-              <img src="../assets/img/shape/7.png" alt="Thumb" />
-            </div>
-          </div>
-        </div>
-        <div class="personal-social">
-          <ul>
-            <li class="facebook">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="behance">
-              <a href="#">
-                <i class="fab fa-behance"></i>
-              </a>
-            </li>
-            <li class="dribbble">
-              <a href="#">
-                <i class="fab fa-dribbble"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <div>
+    <Banner />
+    <Services />
+    <Portfolio />
+    <About />
   </div>
-  <!-- End Banner -->
 </template>
 
-<script setup></script>
+<script setup>
+import Banner from "../components/banner.vue";
+import Navigation from "../components/header.vue";
+import Services from "../components/services.vue";
+import Portfolio from "../components/portfolio.vue";
+import About from "../components/about.vue";
+import Footer from "../components/footer.vue";
+useHead({
+  script: [
+    {
+      src: "/assets/js/jquery-3.6.0.min.js",
+      body: true,
+    },
+    { src: "/assets/js/bootstrap.bundle.min.js", body: true },
+    { src: "/assets/js/jquery.appear.js", body: true },
+    { src: "/assets/js/jquery.easing.min.js", body: true },
+    { src: "/assets/js/jquery.magnific-popup.min.js", body: true },
+    { src: "/assets/js/modernizr.custom.13711.js", body: true },
+    { src: "/assets/js/swiper-bundle.min.js", body: true },
+    { src: "/assets/js/wow.min.js", body: true },
+    { src: "/assets/js/progress-bar.min.js", body: true },
+    { src: "/assets/js/circle-progress.js", body: true },
+    { src: "/assets/js/isotope.pkgd.min.js", body: true },
+    { src: "/assets/js/imagesloaded.pkgd.min.js", body: true },
+    { src: "/assets/js/jquery.nice-select.min.js", body: true },
+    { src: "/assets/js/count-to.js", body: true },
+    { src: "/assets/js/jquery.scrolla.min.js", body: true },
+    { src: "/assets/js/YTPlayer.min.js", body: true },
+    { src: "/assets/js/TweenMax.min.js", body: true },
+    { src: "/assets/js/typed.js", body: true },
+    { src: "/assets/js/validnavs.js", body: true },
+    { src: "/assets/js/main.js", body: true },
+  ],
+});
+</script>
 
-<style scoped></style>
+<script>
+export default {
+  mounted: function () {},
+};
+// export default {
+//   plugins: [
+//     "/assets/js/jquery-3.6.0.min.js",
+//
+//   ],
+// };
+</script>
