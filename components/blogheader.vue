@@ -44,9 +44,13 @@
               data-out="fadeOutUp"
             >
               <li>
-                <a class="smooth-menu" href="#home">Home</a>
+                <!-- <a class="smooth-menu" href="#home">Home</a> -->
+                <NuxtLink to="/">
+                  <i class="fas fa-home"></i>
+                  <div class="menu-name">Home</div>
+                </NuxtLink>
               </li>
-              <li>
+              <!-- <li>
                 <a class="smooth-menu" href="#expertise">expertise</a>
               </li>
               <li>
@@ -54,13 +58,13 @@
               </li>
               <li>
                 <a class="smooth-menu" href="#about">about</a>
-              </li>
+              </li> -->
               <li>
                 <a class="smooth-menu" href="#blog">blog</a>
               </li>
-              <li>
+              <!-- <li>
                 <a class="smooth-menu" href="#contact">contact</a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <!-- /.navbar-collapse -->
@@ -76,7 +80,7 @@
     <!-- End Header -->
 
     <!-- Start Header Fixed 
-    ============================================= -->
+      ============================================= -->
     <header class="header-fixed">
       <div class="f-flex">
         <div class="logo">
@@ -87,16 +91,16 @@
         <div class="menu">
           <ul class="nav">
             <li>
-              <a class="smooth-menu" href="#home">
+              <!-- <a class="smooth-menu" href="#home">
+                  <i class="fas fa-home"></i>
+                  <div class="menu-name">Home</div>
+                </a> -->
+              <NuxtLink to="/">
                 <i class="fas fa-home"></i>
                 <div class="menu-name">Home</div>
-              </a>
-              <!-- <NuxtLink to="/">
-                <i class="fas fa-home"></i>
-                <div class="menu-name">Home</div>
-              </NuxtLink> -->
+              </NuxtLink>
             </li>
-            <li>
+            <!-- <li>
               <a class="smooth-menu" href="#services">
                 <i class="fas fa-cog"></i>
                 <div class="menu-name">Services</div>
@@ -113,23 +117,23 @@
                 <i class="fas fa-user"></i>
                 <div class="menu-name">About</div>
               </a>
-            </li>
+            </li> -->
             <li>
-              <!-- <a class="smooth-menu" href="#resume">
-                <i class="fas fa-file-alt"></i>
-                <div class="menu-name">Resume</div>
-              </a> -->
-              <NuxtLink to="/blog">
+              <a class="smooth-menu" href="#blog">
                 <i class="fas fa-file-alt"></i>
                 <div class="menu-name">Blog</div>
-              </NuxtLink>
+              </a>
+              <!-- <NuxtLink to="/blog">
+                <i class="fas fa-file-alt"></i>
+                <div class="menu-name">Resume</div>
+              </NuxtLink> -->
             </li>
-            <li>
+            <!-- <li>
               <a class="smooth-menu" href="#contact">
                 <i class="fas fa-comments"></i>
                 <div class="menu-name">Contact</div>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
         <div class="video">

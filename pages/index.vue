@@ -1,9 +1,11 @@
 <template>
   <div>
+    <Navigation />
     <Banner />
     <Services />
     <Portfolio />
     <About />
+    <Contact />
   </div>
 </template>
 
@@ -13,6 +15,7 @@ import Navigation from "../components/header.vue";
 import Services from "../components/services.vue";
 import Portfolio from "../components/portfolio.vue";
 import About from "../components/about.vue";
+import Contact from "../components/contact.vue";
 import Footer from "../components/footer.vue";
 useHead({
   script: [

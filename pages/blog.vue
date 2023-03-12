@@ -1,5 +1,6 @@
 <template>
   <div>
+    <BlogNav />
     <!-- Start Blog 
     ============================================= -->
     <div
@@ -440,7 +441,7 @@
 
 <script setup>
 import Banner from "../components/banner.vue";
-import Navigation from "../components/header.vue";
+import BlogNav from "../components/blogheader.vue";
 import Services from "../components/services.vue";
 import Portfolio from "../components/portfolio.vue";
 import About from "../components/about.vue";
