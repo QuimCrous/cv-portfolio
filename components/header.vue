@@ -15,7 +15,6 @@
               class="navbar-toggle"
               data-toggle="collapse"
               data-target="#navbar-menu"
-              @click="collapsedNav"
             >
               <i class="fa fa-bars"></i>
             </button>
@@ -26,7 +25,7 @@
           <!-- End Header Navigation -->
 
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="navbar-collapse" id="navbar-menu" :class="collapsed">
+          <div class="collapse navbar-collapse" id="navbar-menu">
             <img src="../assets/img/logo.png" alt="Logo" />
             <button
               type="button"
@@ -146,19 +145,6 @@
   </div>
 </template>
 
-<script setup>
-import { ref } from "vue";
-const boolCollapsed = ref("false");
-const collapsed = ref("collapse");
-const collapsedNav = () => {
-  if (!boolCollapsed.value) {
-    collapsed.value = "";
-    boolCollapsed.value = true;
-  } else {
-    collapsed.value = "collapse";
-    boolCollapsed.value = false;
-  }
-};
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>
