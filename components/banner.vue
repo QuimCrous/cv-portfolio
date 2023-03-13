@@ -16,7 +16,7 @@
                 <!-- type headline start-->
                 <span class="cd-headline clip is-full-width">
                   <!-- ROTATING TEXT -->
-                  <span class="cd-words-wrapper">
+                  <span class="cd-words-wrapper" :key="key">
                     <b class="is-visible"
                       >Fullstack Developer and 3D designer</b
                     >
@@ -68,6 +68,20 @@
   <!-- End Banner -->
 </template>
 
-<script setup></script>
+<script>
+export default {
+  data: function () {
+    return {
+      key: Math.random(),
+    };
+  },
+  mounted: function () {
+    console.log(this);
+    jQuery(document).ready(function (d) {
+      initTyping(d);
+    });
+  },
+};
+</script>
 
 <style scoped></style>
