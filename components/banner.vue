@@ -76,7 +76,7 @@ export default {
     };
   },
   mounted: function () {
-    console.log(this);
+    //console.log(this);
     jQuery(document).ready(function (d) {
       initTyping(d);
     });

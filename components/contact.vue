@@ -100,8 +100,8 @@
                     <div class="info">
                       <p>Our Email</p>
                       <h5>
-                        <a href="mailto:info@validtheme.com"
-                          >info@validtheme.com</a
+                        <a href="mailto:joaquimcrous@gmail.com"
+                          >joaquimcrous@gmail.com</a
                         >
                         <br />
                         <a href="mailto:support@softar.com"
@@ -120,9 +120,9 @@
                     <div class="info">
                       <p>Address</p>
                       <h5>
-                        22 Baker Street, <br />
-                        London, United Kingdom, <br />
-                        W1U 3BW
+                        Sant Feliu de Llobregat, <br />
+                        Catalunya, <br />
+                        España
                       </h5>
                     </div>
                   </li>
@@ -136,7 +136,7 @@
                     <div class="info">
                       <p>Phone</p>
                       <h5>
-                        <a href="tel:+4733378901">+44-20-7328-4499</a>
+                        <a href="tel:+34686542727">+34-686-542-727</a>
                         <br /><a href="tel:+4733378901">+99-34-8878-9989</a>
                       </h5>
                     </div>

@@ -1,3 +1,26 @@
+<script setup>
+import SingleItem from "./portfoliosingleitem.vue";
+import SingleModal from "./portfoliosinglemodal.vue";
+import { ref, onUpdated, watchEffect, reactive } from "vue";
+const response = ref(null);
+const respModal = ref(null);
+
+const probesVaries = async () => {
+  const data = await fetch("../_nuxt/assets/json/portfolio.json");
+  response.value = await data.json();
+  console.log(response.value);
+};
+
+const fetchModals = async () => {
+  const data = await fetch("../_nuxt/assets/json/modal.json");
+  respModal.value = await data.json();
+  console.log(respModal.value);
+};
+
+probesVaries();
+fetchModals();
+</script>
+
 <template>
   <div>
     <!-- Start Portfolio 
@@ -53,7 +76,8 @@
             <div class="magnific-mix-gallery masonary">
               <div id="portfolio-grid" class="gallery-items colums-3">
                 <!-- Single Item -->
-                <div class="pf-item">
+                <SingleItem v-for="proba in response" :item="proba" />
+                <!-- <div class="pf-item">
                   <div class="overlay-content">
                     <img src="../assets/img/800x600.png" alt="thumb" />
                     <div class="content">
@@ -76,10 +100,11 @@
                       ></a>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- End Single Item -->
                 <!-- Single Item -->
-                <div class="pf-item">
+                <!-- <SingleItem :item="proba" /> -->
+                <!-- <div class="pf-item">
                   <div class="overlay-content">
                     <img src="../assets/img/800x600.png" alt="thumb" />
                     <div class="content">
@@ -102,7 +127,7 @@
                       ></a>
                     </div>
                   </div>
-                </div>
+                </div> -->
                 <!-- End Single Item -->
                 <!-- Single Item -->
                 <div class="pf-item">
@@ -216,7 +241,8 @@
       </div>
 
       <!-- Start Projects Single Modal -->
-      <div
+      <SingleModal v-for="modal in respModal" :modal="modal" />
+      <!-- <div
         class="modal fade"
         id="projectSingleModal"
         tabindex="-1"
@@ -358,13 +384,11 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- End Projects Single Modal -->
     </div>
     <!-- End Portfolio -->
   </div>
 </template>
-
-<script setup></script>
 
 <style lang="scss" scoped></style>

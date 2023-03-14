@@ -23,7 +23,7 @@
           <!-- Single Item -->
           <div class="service-style-one col-lg-4 col-md-6">
             <div class="service-style-one-item">
-              <img src="assets/img/icon/1.png" alt="Icon" />
+              <img src="../assets/img/icon/1.png" alt="Icon" />
               <h4>
                 <a
                   href="#"
@@ -33,10 +33,9 @@
                 >
               </h4>
               <p>
-                With knowledge of several frameworks, I specialize in designing
-                websites for personal or professional use, and if you have a
-                preference for using a specific technology, it can be done
-                without any problem.
+                We specialize in designing websites for personal or professional
+                use, and if you have a preference for using a specific
+                technology, it can be done without any problem.
               </p>
             </div>
           </div>
@@ -44,7 +43,7 @@
           <!-- Single Item -->
           <div class="service-style-one col-lg-4 col-md-6">
             <div class="service-style-one-item">
-              <img src="assets/img/icon/2.png" alt="Icon" />
+              <img src="../assets/img/icon/2.png" alt="Icon" />
               <h4>
                 <a
                   href="#"
@@ -65,7 +64,7 @@
           <!-- Single Item -->
           <div class="service-style-one col-lg-4 col-md-6">
             <div class="service-style-one-item">
-              <img src="assets/img/icon/4.png" alt="Icon" />
+              <img src="../assets/img/icon/4.png" alt="Icon" />
               <h4>
                 <a
                   href="#"
