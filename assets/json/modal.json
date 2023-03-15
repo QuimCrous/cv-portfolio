@@ -55,5 +55,43 @@
     "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/circle_web_2.png",
     "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/circle_web_3.png",
     "url": "https://midterm-ironhack-jade.vercel.app"
+  },
+  {
+    "id": 4,
+    "modalId": "codeWarsModal",
+    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/codewars_2.png",
+    "projectType": "Java language project",
+    "date": "In Progress",
+    "title": "Codewars Project",
+    "description": "This is my project where I will upload my solutions to different CodeWars katas. I will use it to have in a single repository the different solutions I have reached by solving them using Java as the language. My intention is to be able to share it with the world while practicing my skills.",
+    "checklist": {
+      "titleOne": "Codewars",
+      "descriptionOne": "Codewars.com is a community-driven platform that provides programming challenges, known as 'kata', to help developers improve their coding skills. The challenges are organized by difficulty level and cover a wide range of programming languages, such as Python, Java, JavaScript, and more. Users can submit their solutions to the challenges and earn points and rankings based on their performance. Codewars also offers social features, allowing users to interact with each other, collaborate on challenges, and learn from one another.",
+      "titleTwo": "Java",
+      "descriptionTwo": "Java is a high-level, object-oriented programming language that is designed to be portable, meaning it can run on multiple platforms without the need for recompilation. It was first released by Sun Microsystems in 1995 and has since become one of the most popular programming languages in use today. Java is known for its simplicity, robustness, and security features, making it ideal for developing enterprise-level applications, web applications, mobile apps, and more. It uses a virtual machine called the Java Virtual Machine (JVM) to execute code, which makes it highly platform-independent. Java also has a large community of developers who contribute to open-source projects and provide support through various forums and resources."
+    },
+    "bigDescription": "This project is constantly in progress since every day I upload the solution of a few 'katas'. Codewars offers a good way to practice your programming skills across a bunch of languages, which helps to maintain or improve one's skills.",
+    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/codewars_3.png",
+    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/codewars_4.png",
+    "url": "https://github.com/QuimCrous/codewars_java_solutions"
+  },
+  {
+    "id": 5,
+    "modalId": "crmRenegadosModal",
+    "bigImgSrc": "../_nuxt/assets/img/portfolioimg/crm_renegados_2.png",
+    "projectType": "Java language project",
+    "date": "21 October, 2022",
+    "title": "CRM LBL Trucking Company",
+    "description": "This project was the third one we did as a team in the backend bootcamp. A CRM with a variety of features that will help the seller keep track of their sales and see various statistics that will allow them to improve their work. In this project, we used GitHub to unify the code of everyone, each working on a part of the code.",
+    "checklist": {
+      "titleOne": "CRM",
+      "descriptionOne": "A CRM (Customer Relationship Management) is a software application that helps businesses manage their interactions with customers and prospects. It typically includes features for managing customer data, tracking leads and sales, managing marketing campaigns, and providing analytics and reporting. A CRM system can help businesses improve their customer service, increase sales, and gain insights into customer behavior and preferences. It is often used by sales teams, customer service representatives, and marketing professionals to better understand and engage with customers.",
+      "titleTwo": "Java",
+      "descriptionTwo": "Java is a high-level, object-oriented programming language that is designed to be portable, meaning it can run on multiple platforms without the need for recompilation. It was first released by Sun Microsystems in 1995 and has since become one of the most popular programming languages in use today. Java is known for its simplicity, robustness, and security features, making it ideal for developing enterprise-level applications, web applications, mobile apps, and more. It uses a virtual machine called the Java Virtual Machine (JVM) to execute code, which makes it highly platform-independent. Java also has a large community of developers who contribute to open-source projects and provide support through various forums and resources."
+    },
+    "bigDescription": "As a team, we improved a lot together throughout the bootcamp, and this project is the demonstration of everything we learned. We used our skills to create a program that would allow us to keep track of sales from when it is just a contact until the sale is closed. In addition, it has a section where tests are performed on the functionality of the application to verify that everything works correctly.",
+    "smallImgSrcOne": "../_nuxt/assets/img/portfolioimg/crm_renegados_3.png",
+    "smallImgSrcTwo": "../_nuxt/assets/img/portfolioimg/crm_renegados_4.png",
+    "url": "https://github.com/QuimCrous/Homework3"
   }
 ]

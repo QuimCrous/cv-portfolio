@@ -104,8 +104,8 @@
                           >joaquimcrous@gmail.com</a
                         >
                         <br />
-                        <a href="mailto:support@softar.com"
-                          >support@softar.com</a
+                        <a href="mailto:omouroestudio@gmail.com"
+                          >omouroestudio@gmail.com</a
                         >
                       </h5>
                     </div>

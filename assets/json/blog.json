@@ -3,35 +3,40 @@
     "id": 1,
     "imageSrc": "../_nuxt/assets/img/portfolioimg/web_task_3.png",
     "title": "DONE!",
-    "description": "Task web app",
-    "dataBsTarget": "#doneModal"
+    "date": "Task web app",
+    "dataBsTarget": "#doneModal",
+    "user": "Quim"
   },
   {
     "id": 2,
     "imageSrc": "../_nuxt/assets/img/portfolioimg/online_bank_api.png",
     "title": "Bank Online",
-    "description": "Online Bank API (Java)",
-    "dataBsTarget": "#onlineBankApiModal"
+    "date": "Online Bank API (Java)",
+    "dataBsTarget": "#onlineBankApiModal",
+    "user": "Quim"
   },
   {
     "id": 3,
     "imageSrc": "../_nuxt/assets/img/portfolioimg/circle_web.png",
     "title": "Circle",
-    "description": "Circle web app",
-    "dataBsTarget": "#circleWebModal"
+    "date": "Circle web app",
+    "dataBsTarget": "#circleWebModal",
+    "user": "Quim"
   },
   {
     "id": 4,
     "imageSrc": "../_nuxt/assets/img/portfolioimg/codewars_1.png",
     "title": "Codewars Project",
-    "description": "Codewars' solutions repo",
-    "dataBsTarget": "#codeWarsModal"
+    "date": "Codewars' solutions repo",
+    "dataBsTarget": "#codeWarsModal",
+    "user": "Quim"
   },
   {
     "id": 5,
     "imageSrc": "../_nuxt/assets/img/portfolioimg/crm_renegados_1.png",
     "title": "CRM LBL Trucking Company",
-    "description": "CRM Java",
-    "dataBsTarget": "#crmRenegadosModal"
+    "date": "CRM Java",
+    "dataBsTarget": "#crmRenegadosModal",
+    "user": "Quim"
   }
 ]

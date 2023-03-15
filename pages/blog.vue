@@ -5,7 +5,7 @@
     ============================================= -->
     <div
       id="blog"
-      class="blog-style-one-area blog-area default-padding-top bottom-less"
+      class="blog-style-one-area blog-area default-padding-top bottom-less mb-5 pb-5"
     >
       <div class="container">
         <div class="row">
@@ -21,7 +21,7 @@
       <div class="container">
         <div class="row">
           <!-- Single item -->
-          <div class="blog-style-one mb-30 col-lg-4 col-md-6">
+          <!-- <div class="blog-style-one mb-30 col-lg-4 col-md-6">
             <div class="item">
               <div class="thumb">
                 <a
@@ -52,7 +52,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- End Single item -->
 
           <!-- Single item -->
